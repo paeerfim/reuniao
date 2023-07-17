@@ -13,3 +13,28 @@ body {
 .margin {
     margin-top: 30px;
 }
+
+.title {
+    font-family:"gill sans mt", verdana, arial;
+    font-size: 20pt;
+    font-weight: bold;
+    letter-spacing: -3px;
+    color: rgb(11, 147, 220);
+ }
+
+ .a {
+    font-style: normal;
+    color: aqua;
+    text-decoration: none;
+ }
+
+ .content.area {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 12px;
+    margin-top: 24px;
+ }
+
+ .td {
+    vertical-align: middle;
+}

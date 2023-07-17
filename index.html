@@ -27,20 +27,36 @@
             </ul>
         </div>
     </nav>
+        <div class="content_area">
+            <h2></h2>
+            <script>Q.push(function() {
+                var input = document.getElementById("chosen_date"),
+                    form = document.getElementById("bookings_date");
+                input.addEventListener("change", function(event) {
+                    form.submit();
+                });
+            });</script>
+            <form action="#" method="post" name="bookings_book PROCURAR VIEWS" id="bookings_date">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td valign="middle">
+                                <label for="chosen_date">
+                                    <strong>DATA</strong>
+                                </label>
+                            </td>
+                            <td valign="middle">
+                                <input type="text" name="chosen_date" id="chosen_date" size="10" maxlength="10" value="#" onblur="this.form.submit()">
+                            </td>
+                            
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
 
-    <section id="quemsomos">
-        <div class="container-fluid quem-somos text-center margin">
-            <h3>Quem somos</h3>
-            <img src="">
-
+                <table></table>
+            </form>
         </div>
-    </section>
-
-    <selection id="Parceiros">
-        <div class="container-fluid text-center margin">
-            <h3>Parceiros</h3>
-        </div>
-    </selection>
-</body>
+    </body>
 
 </HTMl>
